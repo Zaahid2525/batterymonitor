@@ -26,5 +26,13 @@ namespace BatteryMonitor
         {
             Application.Exit();
         }
+
+    
+
+        private void Button1_Click_1(object sender, EventArgs e)
+        {
+            PowerStatus status = SystemInformation.PowerStatus;
+            label2.Text = status.BatteryLifePercent.ToString("P0");
+        }
     }
 }

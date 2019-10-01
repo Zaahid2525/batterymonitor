@@ -95,8 +95,9 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 29);
             this.button1.TabIndex = 5;
-            this.button1.Text = "Refresh";
+            this.button1.Text = "Status";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click_1);
             // 
             // Form1
             // 
@@ -125,5 +126,7 @@
         private System.Windows.Forms.Button btnCloseWindow;
         private System.Windows.Forms.Button button1;
     }
+
+
 }
 
